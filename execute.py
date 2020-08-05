@@ -23,4 +23,4 @@ try:
 except subprocess.CalledProcessError:
     pass
 
-send_mail("challapallihemanthsaikumar@gmail.com", "", result)
+send_mail("gmail", "password", result)
